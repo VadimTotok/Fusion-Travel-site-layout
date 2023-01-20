@@ -29,6 +29,12 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header__1 {
     width: 100%;
     position: absolute;
@@ -36,4 +42,24 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     right: 0;
     z-index: 1000;
+}
+
+/* Navigation */
+.nav {
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color:white;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: #2a66bd;
+
 }
