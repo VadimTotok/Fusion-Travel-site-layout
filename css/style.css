@@ -106,3 +106,19 @@ h1, h2, h3, h4, h5, h6 {
 .nav__link:hover::after {
     display: block;
 }
+
+/* New section */
+.button {
+    margin-top: 380px;
+    text-align: center;
+    transform: translateY(20px);
+}
+
+.button a {
+    background: linear-gradient(to left, #fbad27, #fbad27);
+    padding: 18px 59px;
+    border-radius: 80px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
