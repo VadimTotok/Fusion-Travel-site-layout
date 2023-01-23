@@ -107,7 +107,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
 }
 
-/* New section */
+/* Button section */
 .button {
     margin-top: 380px;
     text-align: center;
@@ -121,4 +121,40 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: white;
     font-weight: 500;
+}
+
+/* New section */
+.new__secrion {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description__new__section {
+    width: 100%;
+    max-width: 1920px;
+    max-height: 800px;
+    margin: 0 auto;
+}
+
+.header__title__two__section {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.1;
+}
+
+.header__title__two__title {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 16px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.1;
 }
