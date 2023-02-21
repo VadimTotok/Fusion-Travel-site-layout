@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5, h6 {
 .button {
     margin-top: 380px;
     text-align: center;
-    transform: translateY(20px);
+    transform: translateY(134px);
 }
 
 .button a {
@@ -157,4 +157,15 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
     text-align: center;
     line-height: 1.1;
+}
+
+/* Services */
+
+.services {
+    display: flex;
+}
+
+.services__item {
+    flex: 1 1 0;
+    transform: translateX(200px) translateY(200px);
 }
