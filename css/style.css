@@ -169,3 +169,13 @@ h1, h2, h3, h4, h5, h6 {
     flex: 1 1 0;
     transform: translateX(200px) translateY(200px);
 }
+
+.price__title {
+    max-width: 978px;
+    max-height: 435px;
+    margin: 0 auto;
+}
+
+.plane__title {
+    font-size: 18px;
+}
